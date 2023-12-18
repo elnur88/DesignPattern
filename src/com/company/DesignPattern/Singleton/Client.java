@@ -1,17 +1,9 @@
-package com.company;
+package com.company.DesignPattern.Singleton;
 
 
-import com.company.DesignPattern.AbstractFactory.ComputerDeviceFactory;
-import com.company.DesignPattern.AbstractFactory.DeviceFactory;
-import com.company.DesignPattern.AbstractFactory.DeviceManager;
-import com.company.DesignPattern.AbstractFactory.MobileDeviceFactory;
 
-public class Main {
-
+public class Client {
     public static void main(String[] args) {
-
-        /*Singletion
-
         DeviceManager deviceManager = DeviceManager.getInstance();
 
         System.out.println("Tv: " + deviceManager.getDeviceStatus());
@@ -23,8 +15,5 @@ public class Main {
         System.out.println("Tv: " + anotherReference.getDeviceStatus());
 
         System.out.println("Equal? " + (deviceManager == anotherReference));
-
-         */
-
     }
 }
